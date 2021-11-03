@@ -1,6 +1,6 @@
 import Images from "./Images";
 
-const Content = (props) => {
+const Section = (props) => {
   return (
     <div className="content-item">
       <h2>{props.title}</h2>
@@ -8,4 +8,4 @@ const Content = (props) => {
     </div>
   );
 };
-export default Content;
+export default Section;

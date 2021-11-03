@@ -1,6 +1,6 @@
 import "./App.css";
 import data from "./assets/data.json";
-import Content from "./components/Content";
+import Section from "./components/Section";
 import Header from "./components/Header";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <div className="container">
         {data.map((elem, index) => {
           return (
-            <Content key={index} title={elem.category} images={elem.images} />
+            <Section key={index} title={elem.category} images={elem.images} />
           );
         })}
       </div>
